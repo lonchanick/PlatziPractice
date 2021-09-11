@@ -1,2 +1,2 @@
 # PlatziPractice
-Sitio para proponer y resolver ejercicios para reforzar conocimientos adquiridos en Platzi.
+Sitio para proponer y resolver ejercicios y para reforzar conocimientos adquiridos en Platzi.
