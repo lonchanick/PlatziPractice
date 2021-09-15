@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+main p{
+    width: 100%; /*1508  1468*/
+    height: 300px;
+    background-color: aqua;
+    border: 10px solid gray;
+    padding: 20px;
+    margin: 0ch;
+}
+
+pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+  }
