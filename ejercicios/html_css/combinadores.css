@@ -1,0 +1,7 @@
+.adjacent-siblings h2+p{
+    color: brown;
+}
+
+.general-siblings h2 ~ p {
+    background-color: chocolate;
+}
