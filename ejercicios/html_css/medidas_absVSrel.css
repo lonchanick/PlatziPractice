@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+}
+
+p{
+    font-size: 20px;
+    font-family: monospace;
+    color: brown;
+}
+main{
+    background-color: grey;
+    width: 100%;
+    height: 600px;
+}

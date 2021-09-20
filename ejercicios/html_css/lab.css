@@ -1,3 +1,14 @@
-.asdasd{
-    font-size: 50px;
+*{
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+main{   
+    width: 100vw;
+    height: 96vh;
+    background-color: sandybrown;
 }

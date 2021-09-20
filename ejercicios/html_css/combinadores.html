@@ -11,7 +11,9 @@
     <h3><a href="../../clases.html">REGRESAR</a> </h3>
     <h1>Combinadores</h1>
     <div class="adjacent-siblings">
+        
         <h1>Adjacent Siblings || Hermano Cercano</h1>
+        <span><code>h2+p{style}</code> -> Esto signifia que el estilo se va aplicar a todas las etiquetas "P" que sean ADYASENTES a "H2"</span>
         <h2>soy un H2</h2>
         <p>Soy un parrafo</p>
         <h2>Soy un H2</h2>
@@ -23,6 +25,7 @@
 
     <div class="general-siblings">
         <h1>General Siblings || Hermano General</h1>
+        <p><code>h2 ~ p {style}</code>: Lo que dice este codigo es "Todas las etiquetas "P" que tengan un "HERMANO GENERAL" tipo "H2" se les va aplicar el siguiente estilo</p>
         <h2>soy un H2</h2>
         <p>Soy un parrafo</p>
         <h2>Soy un H2</h2>
@@ -34,5 +37,45 @@
         </div>
         <p>Soy otro parrafo denuevo</p>
     </div>
+
+    <div class="hijo">
+        <div>
+            <h1>Hijos directos</h1>
+            <section>
+                <p><code>div > p {style}</code> -> Lo que hace este codigo es aplicar estilo a todas las etiquetas "P" que sean HIJOS DIRECTOS de la etiqueta "DIV"</p>
+            </section>
+            <span>Soy una etiqueta span dentro de un DIV</span>
+            <p>Este es un PARRAFO hijo directo de div</p>
+            <section>
+                <span>Ahora estoy dentro de una seccion</span>
+            </section>
+            <P>Este es otro hijo directo de div</P>
+        </div>
+    </div>
+
+    <div class="descendiente">
+        <h1>descendientes</h1>
+        <code>div span {style} -> Esta es la forma mas general de aplicar estilos, en este caso se van aplicar estilos a todos las etiqueta "SPAN" que esten dentro de un "DIV"</code><br><br>
+        <section>
+            <li>section #1</li>
+            <span>Soy span, Estoy dentro de un section</span>
+            <section>
+                <li>section #1.1</li>
+                <span>Soy span, Estoy dentro del section #1.1</span>
+                <section>
+                    <li>section #1.2</li>
+                    <span>Soy span, Estoy dentro del section #1.2</span>
+                </section>
+            </section>
+        </section>
+    </div>
+
+    <footer>
+        <br><br><br><br>
+        <br><br><br><br>
+        <br><br><br><br>
+        <br><br><br><br>
+        <hr>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+            border: 0;
+            padding: 0;
+        }
+        .parent{
+            border: 2px black dotted;
+            display: inline-block;
+        }
+        .box{
+            display: inline-block;
+            background-color: red;
+            width: 100px;
+            height: 100px;
+        }
+        #two{
+            background-color: green;
+        }
+
+        .superior{
+            border: 2px; 
+            border-style: solid;
+            width: 200px;
+            height: 100px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            top: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .inferior{
+            width: 500px;
+            min-height: 500px;
+            border: 2px; 
+            border-style: solid;
+            margin: 0 auto;
+            text-align: center;
+            border-radius: 20px;
+
+        }
+        .img-sp{
+            width: 300px;
+            height: 250px;
+        }
+
+    </style>
+</head>
+<body>
+    <h3><a href="../../clases.html">REGRESAR</a> </h3>
+
+    <header>
+        <h1>POSITION</h1>
+    </header>
+    <main class="parent">
+        <div>
+            <div class="box" id="one">1</div>
+            <div class="box" id="two">2</div>
+            <div class="box" id="three">3</div>
+            <div class="box" id="four">4</div>
+        </div><br>
+        
+    </main>
+   
+    <h3>desafio</h3>
+    <section class="contenedor">
+        <div class="superior"><br><br>
+            <p>TITULO WAREVER</p>
+        </div>
+        <div class="inferior"><br><br>
+            <figure>
+                <img src="./imagenes/pexels-pressmaster-3851872.jpg" alt="san patricio" class="img-sp">
+            </figure>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quos asperiores consectetur nesciunt deserunt sequi ab voluptatem, sed eum velit ipsum dolor sit amet consectetur adipisicing elit. Architecto quos asperiores consectetur nesciunt deserunt sequi ab voluptatem, sed eum velit ipsum dolor sit amet consectetur adipisicing elit. Architecto quos asperiores consectetur nesciunt deserunt sequi.</p>
+        </div>
+    </section>
+
+    <footer></footer>
+</body>
+</html>

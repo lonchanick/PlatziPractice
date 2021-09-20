@@ -1,7 +1,22 @@
 .adjacent-siblings h2+p{
     color: brown;
 }
+.adjacent-siblings, .general-siblings{
+    border: solid royalblue;
+}
 
 .general-siblings h2 ~ p {
     background-color: chocolate;
+}
+
+.hijo div > p {
+    font-family: monospace;
+    font-size: 20px;
+    color: brown;
+}
+
+.descendiente span{
+    background-color: sandybrown;
+    font-size: 20px;
+    font-family: monospace;
 }

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reto layout</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+            border: 0;
+            margin: 0;
+        }
+
+        html{
+            font-family: monospace;
+        }
+        
+        .nav-item{
+            display: inline-block;
+            padding: 25px; 
+        }
+        .nav-bar{
+            text-align: right;
+        }
+
+        table {
+            width: 100%;
+            }
+        
+        .logo img{
+            width: 75px;
+            height: 75px;
+        }
+
+        header{
+            background-color: chocolate;
+            font-size: 20px;
+            border-radius: 5px;
+            
+            
+        }
+        footer{
+            text-align: center;
+            height: 80px;
+            background-color: chocolate;
+            font-size: 20px;
+            border-radius: 5px;
+            position: relative;
+            bottom: 330px;
+            
+        }
+
+        .left-side{
+            min-width: 20%;
+            min-height: 485px;
+            background-color:darkgoldenrod;
+        }
+        .right-side{
+            min-width: 79%;
+            background-color: darkslategray;
+            min-height: 485px;
+            position: relative;
+            bottom: 330px;
+            
+        }
+        main div{
+            display: inline-block;
+            border: 0;
+            margin: 0;
+        }
+
+        .left-option{
+            margin: auto;
+            margin-bottom: 10px;
+            display: block;
+            max-width: 280px;
+            min-height: 100px;
+            border-radius: 3px;
+            background-color: black;
+            color: blanchedalmond;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h2><a href="../../index.html">HOME</a></h2>
+    <h1>Reto Layout</h1>
+
+    <header>
+        <table>
+            <tr>
+                <th class="logo">
+                    <img src="imagenes/logo.jpg" alt="LOGO">
+                </th>
+
+                <th class="nav-bar">
+                    <nav>
+                        <li class="nav-item" >home</li>
+                        <li class="nav-item">Cursos</li>
+                        <li class="nav-item">Instructores</li>
+                        <li class="nav-item">Blog</li>
+                    </nav>
+                </th>
+            </tr>
+        </table>
+        
+    </header>
+    
+    
+    <main>
+        
+        <div class="left-side">
+            <div class="left-option">
+                <span>OPCION #1</span>
+            </div>
+            <div class="left-option">
+                <span>OPCION #2</span>
+            </div>
+            <div class="left-option">
+                <span>OPCION #3</span>
+            </div>
+            <div class="left-option">
+                <span>OPCION #4</span>
+            </div>
+        </div>
+
+        <div class="right-side">
+            <span>right side</span>
+        </div>
+
+    </main>
+    <footer>
+        <span class="span-footer">SOCIAL MEDIAS ETC ..</span>
+    </footer>
+    
+</body>
+</html>
