@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+html{
+    font-size: 62.5%;
+    background-color: burlywood;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.main-container{
+    font-family: monospace;
+    display: flex;
+    flex-direction: row-reverse; /* column | column-reverse */
+    flex-wrap: /* nowrap; */ wrap-reverse; /* wrap;  */
+    
+}
+
+.cs{
+    border: black solid;
+    width: 10rem;
+    height: 10rem;
+    background-color: brown;
+    /* flex-grow: 1; */
+}
+
+.item-1{
+    width: 10rem;
+    height: 10rem;
+    background-color: brown;
+}
+
+
+.container_2{
+    background-color: blanchedalmond;
+    width: 100vw;
+    height: 50vh;
+    font-family: monospace;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+
+    align-items: center;
+    justify-content: center;
+    gap: 2rem 2rem;
+}
+
+#dos{
+    align-self: baseline;
+}

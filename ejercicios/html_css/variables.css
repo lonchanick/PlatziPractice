@@ -1,0 +1,43 @@
+:root{
+    --secondary-backgorund-color: #F2B138;
+    --main-backgorund-color: cornsilk;
+    --header-backbround-color: #003F63;
+    --h1-font-size: 4rem;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1.6rem;
+}
+
+html{
+    font-size: 62.5%;
+}
+h1{
+    font-size: var(--h1-font-size);
+    color: var(--header-backbround-color);
+}
+
+
+header{
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--header-backbround-color);
+}
+
+main{
+    font-size: 1.8rem;
+    width: 100vw;
+    height: 70vh;
+    background-color:var(--secondary-backgorund-color);
+}
+
+footer{
+    width: 100vw;
+    height: 15vh;
+    background-color:chocolate;
+}
